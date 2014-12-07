@@ -10,6 +10,8 @@ import net.jumpingjaguar.tieredarmor.handler.ConfigurationHandler;
 import net.jumpingjaguar.tieredarmor.init.ModBlocks;
 import net.jumpingjaguar.tieredarmor.init.ModItems;
 import net.jumpingjaguar.tieredarmor.init.Recipes;
+import net.jumpingjaguar.tieredarmor.mob.EntityTiAr;
+import net.jumpingjaguar.tieredarmor.proxy.ClientProxy;
 import net.jumpingjaguar.tieredarmor.proxy.IProxy;
 import net.jumpingjaguar.tieredarmor.reference.Reference;
 import net.jumpingjaguar.tieredarmor.utility.LogHelper;
@@ -30,8 +32,11 @@ public class TieredArmor
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
+        ClientProxy.registerRendering();
+
         ModItems.init();
         ModBlocks.init();
+        EntityTiAr.init();
 
         LogHelper.info("Pre Initialization Complete!");
     }
