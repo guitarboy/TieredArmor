@@ -1,0 +1,22 @@
+[
+{
+  "modid": "TieredArmor",
+  "name": "Tiered Armor",
+  "description": "Adds new tiered armor to the game.",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "quitarboy25"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+    ""
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
