@@ -15,6 +15,7 @@ public class EntityTiAr {
     public static void  RegisterEntity() {
 
         CreateEntity(EntityBaragon.class, "Baragon", 0x461C02, 0xE5A72B);
+        CreateEntity(EntityGabara.class, "Gabara", 0x0E82BC, 0xE5A72B);
     }
 
     public static void CreateEntity(Class entityClass, String entityName, int solidColor, int spotColor) {

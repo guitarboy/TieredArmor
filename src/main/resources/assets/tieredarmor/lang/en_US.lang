@@ -27,3 +27,6 @@ tile.tieredarmor:molybdeniteOre.name=Molybdenite Ore
 
 # Creative Tab Localization
 itemGroup.TieredArmor=Tiered Armor
+
+#Entity Localization
+entity.Baragon.name=Baragon

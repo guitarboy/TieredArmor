@@ -11,6 +11,7 @@ public class ModItems
     public static final ItemTiAr gabarasTooth = new ItemGabarasTooth();
     public static final ItemTiAr blackLeather = new ItemBlackLeather();
     public static final ItemTiAr gappaArrow = new ItemGappaArrow();
+    public static final ItemTiAr baragonsHorn = new ItemBaragonsHorn();
 
     public static final ItemTiAr baramiteIngot = new ItemBaramiteIngot();
     public static final ItemTiAr flametiteIngot = new ItemFlametiteIngot();
@@ -38,6 +39,7 @@ public class ModItems
         GameRegistry.registerItem(blackLeather, "blackLeather");
         GameRegistry.registerItem(gabarasTooth, "gabarasTooth");
         GameRegistry.registerItem(gappaArrow, "gappaArrow");
+        GameRegistry.registerItem(baragonsHorn, "baragonsHorn");
 
         // Registering ingots
         GameRegistry.registerItem(baramiteIngot, "baramiteIngot");

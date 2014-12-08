@@ -14,11 +14,11 @@ public class RenderBaragon extends RenderLiving {
         super(par1ModelBase, par2);
     }
 
-    protected ResourceLocation geEntityTexture(EntityBaragon entity) {
+    protected ResourceLocation getEntityTexture(EntityBaragon entity) {
         return mobTextures;
     }
 
     protected ResourceLocation getEntityTexture(Entity entity) {
-        return this.geEntityTexture((EntityBaragon) entity);
+        return this.getEntityTexture((EntityBaragon) entity);
     }
 }
