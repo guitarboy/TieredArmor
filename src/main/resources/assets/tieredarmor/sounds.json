@@ -6,12 +6,12 @@
       "baragon_say2"
     ]
   },
-  "mob.baragon.hurt": {
+  /*"mob.baragon.hurt": {
     "category": "hostile",
     "sounds": [
       "baragon_hurt"
     ]
-  },
+  },*/
   "mob.baragon.death": {
     "category": "hostile",
     "sounds": [
