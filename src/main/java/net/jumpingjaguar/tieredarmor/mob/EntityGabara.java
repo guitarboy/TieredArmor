@@ -31,6 +31,11 @@ public class EntityGabara extends EntityMob{
         return true;
     }
 
+    @Override
+    public void onLivingUpdate() {
+        super.onLivingUpdate();
+    }
+
     /*protected String getLivingSound() {
         return Reference.MOD_ID + ":mob.gabara.say";
     }

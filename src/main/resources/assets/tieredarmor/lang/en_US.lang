@@ -1,6 +1,7 @@
 # Item Localization
 item.tieredarmor:gappasFeather.name=Gappa's Feather
 item.tieredarmor:gabarasTooth.name=Gabara's Tooth
+item.tieredarmor:baragonsHorn.name=Baragon's Horn
 item.tieredarmor:gappaArrow.name=Gappa Arrow
 item.tieredarmor:blackLeather.name=Black Leather
 item.tieredarmor:baramiteIngot.name=Baramite Ingot
@@ -30,3 +31,4 @@ itemGroup.TieredArmor=Tiered Armor
 
 #Entity Localization
 entity.Baragon.name=Baragon
+entity.Gabara.name=Gabara

@@ -38,11 +38,16 @@ public class EntityBaragon extends EntityMob{
         return ModItems.baragonsHorn;
     }
 
+    @Override
+    public void onLivingUpdate() {
+        super.onLivingUpdate();
+    }
+
     /*protected String getLivingSound() {
         return Reference.MOD_ID + ":mob.baragon.say";
     }
 
-    protected String getHurtSound() {
+    /*protected String getHurtSound() {
         return Reference.MOD_ID + ":mob.baragon.hurt";
     }
 
