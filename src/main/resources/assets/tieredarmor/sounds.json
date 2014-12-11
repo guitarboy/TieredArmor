@@ -6,16 +6,35 @@
       "baragon_say2"
     ]
   },
-  /*"mob.baragon.hurt": {
+  "mob.baragon.hurt": {
     "category": "hostile",
     "sounds": [
       "baragon_hurt"
     ]
-  },*/
+  },
   "mob.baragon.death": {
     "category": "hostile",
     "sounds": [
       "baragon_death"
+    ]
+  },
+  "mob.gabara.say": {
+    "category": "hostile",
+    "sounds": [
+      "gabara_say1",
+      "gabara_say2"
+    ]
+  },
+  "mob.gabara.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "gabara_hurt"
+    ]
+  },
+  "mob.gabara.death": {
+    "category": "hostile",
+    "sounds": [
+      "gabara_death"
     ]
   }
 }
