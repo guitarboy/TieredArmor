@@ -1,10 +1,12 @@
 package net.jumpingjaguar.tieredarmor.item;
 
-public class ItemBaramiteChestT1 extends ItemTiAr
+import net.minecraft.item.ItemArmor;
+
+public class ItemBaramiteChestT1 extends ArmorTiAr
 {
-    public ItemBaramiteChestT1()
+    public ItemBaramiteChestT1(ItemArmor.ArmorMaterial material, int id, int armorSlot)
     {
-        super();
+        super(material, id, armorSlot);
         this.setUnlocalizedName("baramiteChestT1");
     }
 }

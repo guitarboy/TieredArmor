@@ -1,6 +1,4 @@
-package net.jumpingjaguar.tieredarmor.init;
-
-import net.jumpingjaguar.tieredarmor.item.ItemTiAr;
+package net.jumpingjaguar.tieredarmor.item;
 
 public class ItemBaragonsHorn extends ItemTiAr {
 
