@@ -5,14 +5,14 @@ import net.jumpingjaguar.tieredarmor.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class CreativeTabTiAr
+public class CreativeTabTiArTools
 {
-    public static final CreativeTabs TiAr_TAB = new CreativeTabs(Reference.MOD_ID + "Tab")
+    public static final CreativeTabs TiAr_TOOLSTAB = new CreativeTabs(Reference.MOD_ID + "Tools")
     {
         @Override
         public Item getTabIconItem()
         {
-            return ModItems.baramiteIngot;
+            return ModItems.baramiteSword;
         }
     };
 }

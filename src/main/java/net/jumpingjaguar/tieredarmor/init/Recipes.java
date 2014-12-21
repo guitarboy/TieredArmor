@@ -33,12 +33,17 @@ public class Recipes
         if(ConfigurationHandler.enableDropRecipes)
         {
             GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.gappasFeather), new ItemStack(Items.feather), "dyeBlue"));
+            GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.baragonsHorn), new ItemStack(ModItems.gabarasTooth), "dyeYellow"));
         }
 
         // Techarmor recipes
         if(ConfigurationHandler.enableTechArmor)
         {
             GameRegistry.addRecipe(new ItemStack(ModItems.techCore), " x ", "xzx", " x ", 'x', ModItems.einsteiniumIngot, 'z', Items.redstone);
+            GameRegistry.addRecipe(new ItemStack(ModItems.einsteiniumHelmT1), "xzx", "x x", 'x', ModItems.einsteiniumIngot, 'z', ModItems.techCore);
+            GameRegistry.addRecipe(new ItemStack(ModItems.einsteiniumChestT1), "x x", "xzx", "xxx", 'x', ModItems.einsteiniumIngot, 'z', ModItems.techCore);
+            GameRegistry.addRecipe(new ItemStack(ModItems.einsteiniumLegsT1), "xzx", "x x", "x x", 'x', ModItems.einsteiniumIngot, 'z', ModItems.techCore);
+            GameRegistry.addRecipe(new ItemStack(ModItems.einsteiniumBootsT1), "x x", "xzx", 'x', ModItems.einsteiniumIngot, 'z', ModItems.techCore);
         }
 
         // Diving armor recipes

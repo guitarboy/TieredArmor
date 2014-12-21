@@ -34,8 +34,8 @@ public class TieredArmor
 
         ClientProxy.registerRendering();
 
-        ModItems.init();
         ModBlocks.init();
+        ModItems.init();
         EntityTiAr.init();
 
         LogHelper.info("Pre Initialization Complete!");

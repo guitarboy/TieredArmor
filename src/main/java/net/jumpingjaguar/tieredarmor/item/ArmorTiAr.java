@@ -2,7 +2,7 @@ package net.jumpingjaguar.tieredarmor.item;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import net.jumpingjaguar.tieredarmor.creativeTab.CreativeTabTiAr;
+import net.jumpingjaguar.tieredarmor.creativeTab.CreativeTabTiArArmor;
 import net.jumpingjaguar.tieredarmor.init.ModItems;
 import net.jumpingjaguar.tieredarmor.reference.Reference;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -16,23 +16,23 @@ public class ArmorTiAr extends ItemArmor {
 
     public ArmorTiAr(ArmorMaterial material, int id, int armorSlot) {
         super(material, id, armorSlot);
-        setCreativeTab(CreativeTabTiAr.TiAr_TAB);
+        setCreativeTab(CreativeTabTiArArmor.TiAr_ARMORTAB);
 
         this.setTextureName(Reference.MOD_ID + ":" + this.getUnlocalizedName());
     }
 
     public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type) {
-        if (stack.getItem() == ModItems.baramiteLegsT1 || stack.getItem() == ModItems.baramiteHelmT1 || stack.getItem() == ModItems.baramiteBootsT1) {
+        if (stack.getItem() == ModItems.baramiteHelmT1 || stack.getItem() == ModItems.baramiteChestT1 || stack.getItem() == ModItems.baramiteBootsT1) {
             return texturePath + "baramiteT1_layer_1.png";
         }
         else if (stack.getItem() == ModItems.baramiteLegsT1) {
             return texturePath + "baramiteT1_layer_2.png";
         }
         else if (stack.getItem() == ModItems.einsteiniumHelmT1 || stack.getItem() == ModItems.einsteiniumChestT1 || stack.getItem() == ModItems.einsteiniumBootsT1) {
-            return texturePath + "einsteiniumT1_layer_1";
+            return texturePath + "einsteiniumT1_layer_1.png";
         }
         else if (stack.getItem() == ModItems.einsteiniumLegsT1) {
-            return texturePath + "einsteiniumT1_layer_2";
+            return texturePath + "einsteiniumT1_layer_2.png";
         }
         else {
             return null;

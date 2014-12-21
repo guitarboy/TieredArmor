@@ -2,7 +2,7 @@ package net.jumpingjaguar.tieredarmor.item;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import net.jumpingjaguar.tieredarmor.creativeTab.CreativeTabTiAr;
+import net.jumpingjaguar.tieredarmor.creativeTab.CreativeTabTiArTools;
 import net.jumpingjaguar.tieredarmor.reference.Reference;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.ItemAxe;
@@ -13,7 +13,7 @@ public class ItemAxeTiAr extends ItemAxe
     public ItemAxeTiAr(ToolMaterial material)
     {
         super(material);
-        this.setCreativeTab(CreativeTabTiAr.TiAr_TAB);
+        this.setCreativeTab(CreativeTabTiArTools.TiAr_TOOLSTAB);
     }
 
     public ItemAxeTiAr()

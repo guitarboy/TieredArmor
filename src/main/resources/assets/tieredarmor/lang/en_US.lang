@@ -17,8 +17,14 @@ item.tieredarmor:baramitePickaxe.name=Baramite Pickaxe
 item.tieredarmor:baramiteShovel.name=Baramite Shovel
 item.tieredarmor:baramiteAxe.name=Baramite Axe
 item.tieredarmor:baramiteHoe.name=Baramite Hoe
+item.tieredarmor:baramiteHelmT1.name=Baramite Helmet(Tier 1)
 item.tieredarmor:baramiteChestT1.name=Baramite Chestplate(Tier 1)
 item.tieredarmor:baramiteLegsT1.name=Baramite Leggings(Tier 1)
+item.tieredarmor:baramiteBootsT1.name=Baramite Boots(Tier 1)
+item.tieredarmor:einsteiniumHelmT1.name=Einsteinium Helmet(Tier 1)
+item.tieredarmor:einsteiniumChestT1.name=Einsteinium Chestplate(Tier 1)
+item.tieredarmor:einsteiniumLegsT1.name=Einsteinium Leggings(Tier 1)
+item.tieredarmor:einsteiniumBootsT1.name=Einsteinium Boots(Tier 1)
 item.tieredarmor:baramiteChestT2.name=Baramite Chestplate(Tier 2)
 
 # Block Localization
@@ -28,6 +34,8 @@ tile.tieredarmor:flametiteOre.name=Flametite Ore
 tile.tieredarmor:molybdeniteOre.name=Molybdenite Ore
 
 # Creative Tab Localization
+itemGroup.TieredArmorTools=Tiered Armor Tools
+itemGroup.TieredArmorArmor=Tiered Armor Armor
 itemGroup.TieredArmor=Tiered Armor
 
 #Entity Localization
