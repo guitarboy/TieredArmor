@@ -35,7 +35,7 @@ tile.tieredarmor:molybdeniteOre.name=Molybdenite Ore
 
 # Creative Tab Localization
 itemGroup.TieredArmorTools=Tiered Armor Tools
-itemGroup.TieredArmorArmor=Tiered Armor Armor
+itemGroup.TieredArmorTab=Tiered Armor Tab
 itemGroup.TieredArmor=Tiered Armor
 
 #Entity Localization
