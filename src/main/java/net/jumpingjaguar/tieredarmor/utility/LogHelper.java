@@ -1,7 +1,7 @@
 package net.jumpingjaguar.tieredarmor.utility;
 
-import cpw.mods.fml.common.FMLLog;
 import net.jumpingjaguar.tieredarmor.reference.Reference;
+import net.minecraftforge.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
 
 

@@ -1,10 +1,9 @@
 package net.jumpingjaguar.tieredarmor.init;
 
-import cpw.mods.fml.common.registry.GameRegistry;
-import net.jumpingjaguar.tieredarmor.handler.ConfigurationHandler;
-import net.jumpingjaguar.tieredarmor.item.*;
+import net.jumpingjaguar.tieredarmor.items.*;
 import net.jumpingjaguar.tieredarmor.materials.Material;
 import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems
 {
@@ -52,15 +51,16 @@ public class ModItems
     public static void init()
     {
         // Registering items
-        GameRegistry.registerItem(gappasFeather, "gappasFeather");
+       /* GameRegistry.registerItem(gappasFeather, "gappasFeather");
         GameRegistry.registerItem(blackLeather, "blackLeather");
         GameRegistry.registerItem(gabarasTooth, "gabarasTooth");
         GameRegistry.registerItem(gappaArrow, "gappaArrow");
         GameRegistry.registerItem(baragonsHorn, "baragonsHorn");
+        */
 
         // Registering ingots
         GameRegistry.registerItem(baramiteIngot, "baramiteIngot");
-        GameRegistry.registerItem(flametiteIngot, "flametiteIngot");
+        /*GameRegistry.registerItem(flametiteIngot, "flametiteIngot");
         GameRegistry.registerItem(einsteiniumIngot, "einsteiniumIngot");
         GameRegistry.registerItem(molybdeniteIngot, "molybdeniteIngot");
 
@@ -96,7 +96,7 @@ public class ModItems
         if(ConfigurationHandler.enableDivingArmor)
         {
             GameRegistry.registerItem(divingCore, "divingCore");
-        }
+        }*/
     }
 
 }

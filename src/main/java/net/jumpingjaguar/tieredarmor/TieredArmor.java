@@ -1,42 +1,37 @@
 package net.jumpingjaguar.tieredarmor;
 
-import cpw.mods.fml.common.FMLCommonHandler;
-import cpw.mods.fml.common.Mod;
-import cpw.mods.fml.common.SidedProxy;
-import cpw.mods.fml.common.event.FMLInitializationEvent;
-import cpw.mods.fml.common.event.FMLPostInitializationEvent;
-import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import net.jumpingjaguar.tieredarmor.handler.ConfigurationHandler;
 import net.jumpingjaguar.tieredarmor.init.ModBlocks;
 import net.jumpingjaguar.tieredarmor.init.ModItems;
 import net.jumpingjaguar.tieredarmor.init.Recipes;
-import net.jumpingjaguar.tieredarmor.mob.EntityTiAr;
-import net.jumpingjaguar.tieredarmor.proxy.ClientProxy;
-import net.jumpingjaguar.tieredarmor.proxy.IProxy;
+import net.jumpingjaguar.tieredarmor.proxy.CommonProxy;
 import net.jumpingjaguar.tieredarmor.reference.Reference;
 import net.jumpingjaguar.tieredarmor.utility.LogHelper;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.SidedProxy;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
+@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 public class TieredArmor
 {
 
-    @Mod.Instance(Reference.MOD_ID)
-    public static TieredArmor instance;
+    @Mod.Instance
+    public static TieredArmor instance = new TieredArmor();
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
-    public static IProxy proxy;
+    public static CommonProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        ConfigurationHandler.init(event.getSuggestedConfigurationFile());
-        FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+        proxy.preInit(event);
 
-        ClientProxy.registerRendering();
+        //ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+        //FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
-        ModBlocks.init();
-        ModItems.init();
-        EntityTiAr.init();
+	    ModBlocks.init();
+	    ModItems.init();
 
         LogHelper.info("Pre Initialization Complete!");
     }
@@ -44,7 +39,10 @@ public class TieredArmor
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-        Recipes.init();
+        proxy.init(event);
+	    proxy.registerRenders();
+
+	    Recipes.init();
 
         LogHelper.info("Initialization Complete!");
     }
@@ -52,6 +50,8 @@ public class TieredArmor
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
+       proxy.postInit(event);
+
         LogHelper.info("Post Initialization Complete!");
     }
 }

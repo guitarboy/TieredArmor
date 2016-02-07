@@ -1,6 +1,27 @@
 package net.jumpingjaguar.tieredarmor.proxy;
 
-public abstract class CommonProxy implements IProxy
-{
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
+public class CommonProxy
+{
+	public void preInit(FMLPreInitializationEvent e)
+	{
+
+	}
+
+	public void init(FMLInitializationEvent e)
+	{
+
+	}
+
+	public void postInit(FMLPostInitializationEvent e)
+	{
+
+	}
+
+	public void registerRenders() {
+
+	}
 }
