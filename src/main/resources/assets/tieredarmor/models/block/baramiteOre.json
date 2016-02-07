@@ -1,5 +1,5 @@
 {
-  "parent": "tieredarmor:block/baramiteOre",
+  "parent": "block/cube_all",
   "textures": {
     "all": "tieredarmor:blocks/baramiteOre"
 

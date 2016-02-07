@@ -1,8 +1,5 @@
 package net.jumpingjaguar.tieredarmor;
 
-import net.jumpingjaguar.tieredarmor.init.ModBlocks;
-import net.jumpingjaguar.tieredarmor.init.ModItems;
-import net.jumpingjaguar.tieredarmor.init.Recipes;
 import net.jumpingjaguar.tieredarmor.proxy.CommonProxy;
 import net.jumpingjaguar.tieredarmor.reference.Reference;
 import net.jumpingjaguar.tieredarmor.utility.LogHelper;
@@ -30,9 +27,6 @@ public class TieredArmor
         //ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         //FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 
-	    ModBlocks.init();
-	    ModItems.init();
-
         LogHelper.info("Pre Initialization Complete!");
     }
 
@@ -41,8 +35,6 @@ public class TieredArmor
     {
         proxy.init(event);
 	    proxy.registerRenders();
-
-	    Recipes.init();
 
         LogHelper.info("Initialization Complete!");
     }
