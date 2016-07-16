@@ -1,10 +1,17 @@
 package net.jumpingjaguar.tieredarmor.init;
 
+import net.jumpingjaguar.tieredarmor.handler.ConfigurationHandler;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.ShapedOreRecipe;
+import net.minecraftforge.oredict.ShapelessOreRecipe;
+
 public class Recipes
 {
     public static void init()
     {
-       /* // Adds smelting recipes
+        // Adds smelting recipes
         GameRegistry.addSmelting(ModBlocks.baramiteOre, new ItemStack(ModItems.baramiteIngot), 0.8f);
         GameRegistry.addSmelting(ModBlocks.einsteiniumOre, new ItemStack(ModItems.einsteiniumIngot), 1.0f);
         GameRegistry.addSmelting(ModBlocks.flametiteOre, new ItemStack(ModItems.flametiteIngot), 1.0f);
@@ -43,6 +50,6 @@ public class Recipes
         if(ConfigurationHandler.enableDivingArmor)
         {
             GameRegistry.addRecipe(new ItemStack(ModItems.divingCore), " x ", "xzx", " x ", 'x', ModItems.molybdeniteIngot, 'z', Items.fish);
-        }*/
+        }
     }
 }

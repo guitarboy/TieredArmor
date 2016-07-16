@@ -2,9 +2,9 @@ package net.jumpingjaguar.tieredarmor.items;
 
 public class ItemBaramitePickaxe extends ItemPickaxeTiAr
 {
-    public ItemBaramitePickaxe()
+    public ItemBaramitePickaxe(ToolMaterial material)
     {
-        super();
+        super(material);
         this.setUnlocalizedName("baramitePickaxe");
     }
 }

@@ -1,16 +1,19 @@
 [
 {
-  "modid": "TieredArmor",
-  "name": "Tiered Armor",
-  "description": "Mod that Adds Tiered Armor to the game.",
-  "version": "${1.0}",
-  "mcversion": "${1.8.9}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["quitarboy25"],
-  "credits": "",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
+"modid": "tieredarmor",
+"name": "Tiered Armor",
+"description": "Adding tiered armor and few weapons and tools to Minecraft.",
+"version": "",
+"credits": "Created by quitarboy25",
+"logoFile": "/assets/tieredarmor/textures/logo.png",
+"mcversion": "1.8.9",
+"url": "",
+"updateUrl": "",
+"authorList": [ "quitarboy25" ],
+"parent":"",
+"screenshots": [],
+"dependencies": [
+"mod_MinecraftForge"
+]
 }
 ]

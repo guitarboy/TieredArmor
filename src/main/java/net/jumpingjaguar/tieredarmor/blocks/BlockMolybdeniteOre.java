@@ -1,9 +1,12 @@
 package net.jumpingjaguar.tieredarmor.blocks;
 
-public class BlockMolybdeniteOre extends BlockTiAr
+public class BlockmolybdeniteOre extends BlockTiAr
 {
-    public BlockMolybdeniteOre()
-    {
-        super("molybdeniteOre");
-    }
+	public BlockmolybdeniteOre()
+	{
+		super("molybdeniteOre");
+		this.setHarvestLevel("pickaxe", 3);
+		this.setHardness(4.0F);
+		this.setResistance(7.0F);
+	}
 }

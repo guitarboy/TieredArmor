@@ -2,9 +2,9 @@ package net.jumpingjaguar.tieredarmor.items;
 
 public class ItemBaramiteSword extends ItemSwordTiAr
 {
-    public ItemBaramiteSword()
+    public ItemBaramiteSword(ToolMaterial material)
     {
-        super();
+        super(material);
         this.setUnlocalizedName("baramiteSword");
     }
 }

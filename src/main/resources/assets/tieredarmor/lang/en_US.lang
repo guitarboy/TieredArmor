@@ -8,15 +8,29 @@ item.tieredarmor:baramiteIngot.name=Baramite Ingot
 item.tieredarmor:flametiteIngot.name=Flametite Ingot
 item.tieredarmor:einsteiniumIngot.name=Einsteinium Ingot
 item.tieredarmor:molybdeniteIngot.name=Molybdenite Ingot
-item.tieredarmor:baramiteCore.name=Baramite Core
-item.tieredarmor:flametiteCore.name=Flametite Core
-item.tieredarmor:techCore.name=Tech Core
-item.tieredarmor:divingCore.name=Diving Core
+
+# Weapons Localization
 item.tieredarmor:baramiteSword.name=Baramite Sword
+
+# Tools Localization
 item.tieredarmor:baramitePickaxe.name=Baramite Pickaxe
 item.tieredarmor:baramiteShovel.name=Baramite Shovel
 item.tieredarmor:baramiteAxe.name=Baramite Axe
 item.tieredarmor:baramiteHoe.name=Baramite Hoe
+
+# Core Localization
+item.tieredarmor:baramiteCore.name=Baramite Core
+item.tieredarmor:flametiteCore.name=Flametite Core
+item.tieredarmor:techCore.name=Tech Core
+item.tieredarmor:divingCore.name=Diving Core
+
+# Armor Frame Localization
+item.tieredarmor:baramiteHelmFrame.name=Baramite Helmet Frame
+item.tieredarmor:baramiteChestFrame.name=Baramite Chest Frame
+item.tieredarmor:baramiteLegsFrame.name=Baramite Legs Frame
+item.tieredarmor:baramiteBootsFrame.name=Baramite Boots Frame
+
+# T1 Armor Localization
 item.tieredarmor:baramiteHelmT1.name=Baramite Helmet(Tier 1)
 item.tieredarmor:baramiteChestT1.name=Baramite Chestplate(Tier 1)
 item.tieredarmor:baramiteLegsT1.name=Baramite Leggings(Tier 1)
@@ -25,18 +39,24 @@ item.tieredarmor:einsteiniumHelmT1.name=Einsteinium Helmet(Tier 1)
 item.tieredarmor:einsteiniumChestT1.name=Einsteinium Chestplate(Tier 1)
 item.tieredarmor:einsteiniumLegsT1.name=Einsteinium Leggings(Tier 1)
 item.tieredarmor:einsteiniumBootsT1.name=Einsteinium Boots(Tier 1)
+
+#T2 Armor Localization
+item.tieredarmor:baramiteHelmT2.name=Baramite Helmet(Tier 2)
 item.tieredarmor:baramiteChestT2.name=Baramite Chestplate(Tier 2)
+item.tieredarmor:baramiteLegsT2.name=Baramite Leggings(Tier 2)
+item.tieredarmor:baramiteBootsT2.name=Baramite Boots(Tier 2)
 
 # Block Localization
 tile.tieredarmor:baramiteOre.name=Baramite Ore
 tile.tieredarmor:einsteiniumOre.name=Einsteinium Ore
 tile.tieredarmor:flametiteOre.name=Flametite Ore
 tile.tieredarmor:molybdeniteOre.name=Molybdenite Ore
+tile.tieredarmor:coreEnhancingTable.name=Core Enhancing Table
 
 # Creative Tab Localization
-itemGroup.TieredArmorTools=Tiered Armor Tools
-itemGroup.TieredArmorTab=Tiered Armor Tab
-itemGroup.TieredArmor=Tiered Armor
+itemGroup.tieredarmorTools=Tiered Armor Tools
+itemGroup.tieredarmorTab=Tiered Armor Tab
+itemGroup.tieredarmor=Tiered Armor
 
 #Entity Localization
 entity.Baragon.name=Baragon

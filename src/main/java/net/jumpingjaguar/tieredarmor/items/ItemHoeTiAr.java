@@ -1,6 +1,6 @@
 package net.jumpingjaguar.tieredarmor.items;
 
-import net.jumpingjaguar.tieredarmor.creativeTab.CreativeTabTiAr;
+import net.jumpingjaguar.tieredarmor.creativeTab.CreativeTabTiArTools;
 import net.jumpingjaguar.tieredarmor.reference.Reference;
 import net.minecraft.item.ItemHoe;
 import net.minecraft.item.ItemStack;
@@ -10,7 +10,7 @@ public class ItemHoeTiAr extends ItemHoe
     public ItemHoeTiAr(ToolMaterial material)
     {
         super(material);
-        this.setCreativeTab(CreativeTabTiAr.TiAr_TAB);
+        this.setCreativeTab(CreativeTabTiArTools.TiAr_TOOLSTAB);
     }
 
     public ItemHoeTiAr()

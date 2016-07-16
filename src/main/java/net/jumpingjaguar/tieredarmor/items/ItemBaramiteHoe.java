@@ -2,9 +2,9 @@ package net.jumpingjaguar.tieredarmor.items;
 
 public class ItemBaramiteHoe extends ItemHoeTiAr
 {
-    public ItemBaramiteHoe()
+    public ItemBaramiteHoe(ToolMaterial material)
     {
-        super();
+        super(material);
         this.setUnlocalizedName("baramiteHoe");
     }
 }

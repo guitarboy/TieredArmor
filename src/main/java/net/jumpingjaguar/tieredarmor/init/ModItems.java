@@ -7,6 +7,8 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems
 {
+
+    // Armor ID initialization
     public static int baraHelmetT1ID;
     public static int einHelmetT1ID;
     public static int baraChestplateT1ID;
@@ -15,88 +17,144 @@ public class ModItems
     public static int einLeggingsT1ID;
     public static int baraBootsT1ID;
     public static int einBootsT1ID;
+	public static int baraHelmetT2ID;
+	public static int baraChestplateT2ID;
+	public static int baraLeggingsT2ID;
+	public static int baraBootsT2ID;
 
-    public static final ItemTiAr gappasFeather = new ItemGappasFeather();
-    public static final ItemTiAr gabarasTooth = new ItemGabarasTooth();
-    public static final ItemTiAr blackLeather = new ItemBlackLeather();
-    public static final ItemTiAr gappaArrow = new ItemGappaArrow();
-    public static final ItemTiAr baragonsHorn = new ItemBaragonsHorn();
+    // Material initialization
+    public static ItemTiAr gappasFeather;
+    public static ItemTiAr gabarasTooth;
+    public static ItemTiAr blackLeather;
+    public static ItemTiAr gappaArrow;
+    public static ItemTiAr baragonsHorn;
 
-    public static final ItemTiAr baramiteIngot = new ItemBaramiteIngot();
-    public static final ItemTiAr flametiteIngot = new ItemFlametiteIngot();
-    public static final ItemTiAr einsteiniumIngot = new ItemEisteiniumIngot();
-    public static final ItemTiAr molybdeniteIngot = new ItemMolybdeniteIngot();
+    // Ingot initialization
+    public static ItemTiAr baramiteIngot;
+    public static ItemTiAr flametiteIngot;
+    public static ItemTiAr einsteiniumIngot;
+    public static ItemTiAr molybdeniteIngot;
 
-    public static final Item baramiteSword = new ItemBaramiteSword();
-    public static final Item baramitePickaxe = new ItemBaramitePickaxe();
-    public static final Item baramiteShovel = new ItemBaramiteShovel();
-    public static final Item baramiteAxe = new ItemBaramiteAxe();
-    public static final Item baramiteHoe = new ItemBaramiteHoe();
+    // Weapon initialization
+    public static Item baramiteSword;
 
-    public static final ItemTiAr baramiteCore = new ItemBaramiteCore();
-    public static final ItemTiAr flametiteCore = new ItemFlametiteCore();
-    public static final ItemTiAr techCore = new ItemTechCore();
-    public static final ItemTiAr divingCore = new ItemDivingCore();
+    // Tools initialization
+    public static Item baramitePickaxe;
+    public static Item baramiteShovel;
+    public static Item baramiteAxe;
+    public static Item baramiteHoe;
 
-    public static final ArmorTiAr baramiteHelmT1 = new ItemBaramiteHelmT1(Material.TiArArmorMaterial, baraHelmetT1ID, 0);
-    public static final ArmorTiAr baramiteChestT1 = new ItemBaramiteChestT1(Material.TiArArmorMaterial, baraChestplateT1ID, 1);
-    public static final ArmorTiAr baramiteLegsT1 = new ItemBaramiteLegsT1(Material.TiArArmorMaterial, baraLeggingsT1ID, 2);
-    public static final ArmorTiAr baramiteBootsT1 = new ItemBaramiteBootsT1(Material.TiArArmorMaterial, baraBootsT1ID, 3);
-    public static final ArmorTiAr einsteiniumHelmT1 = new ItemEinsteiniumHelmT1(Material.TiArArmorMaterial, einHelmetT1ID, 0);
-    public static final ArmorTiAr einsteiniumChestT1 = new ItemEinsteiniumChestT1(Material.TiArArmorMaterial, einChestplateT1ID, 1);
-    public static final ArmorTiAr einsteiniumLegsT1 = new ItemEinsteiniumLegsT1(Material.TiArArmorMaterial, einLeggingsT1ID, 2);
-    public static final ArmorTiAr einsteiniumBootsT1 = new ItemEinsteiniumBootsT1(Material.TiArArmorMaterial, einBootsT1ID, 3);
-    public static final ItemTiAr baramiteChestT2 = new ItemBaramiteChestT2();
+    // Cores initialization
+    public static ItemTiAr baramiteCore;
+    public static ItemTiAr flametiteCore;
+    public static ItemTiAr techCore;
+    public static ItemTiAr divingCore;
+
+	// Armor frame initialization
+	public static ItemTiAr baramiteHelmFrame;
+	public static ItemTiAr baramiteChestFrame;
+	public static ItemTiAr baramiteLegsFrame;
+	public static ItemTiAr baramiteBootsFrame;
+
+    // T1 armor initialization
+    public static ArmorTiAr baramiteHelmT1;
+    public static ArmorTiAr baramiteChestT1;
+    public static ArmorTiAr baramiteLegsT1;
+    public static ArmorTiAr baramiteBootsT1;
+    public static ArmorTiAr einsteiniumHelmT1;
+    public static ArmorTiAr einsteiniumChestT1;
+    public static ArmorTiAr einsteiniumLegsT1;
+    public static ArmorTiAr einsteiniumBootsT1;
+	public static ArmorTiAr flamtetiteHelmT1;
+	public static ArmorTiAr flametiteChestT1;
+	public static ArmorTiAr flametiteLegsT1;
+	public static ArmorTiAr flametiteBootsT1;
+
+
+    // T2 armor initialization
+	public static ArmorTiAr baramiteHelmT2;
+    public static ArmorTiAr baramiteChestT2;
+	public static ArmorTiAr baramiteLegsT2;
+	public static ArmorTiAr baramiteBootsT2;
+	public static ArmorTiAr einsteiniumHelmT2;
+	public static ArmorTiAr einsteiniumChestT2;
+	public static ArmorTiAr einsteiniumLegsT2;
+	public static ArmorTiAr einsteiniumBootsT2;
+	public static ArmorTiAr flametiteHelmT2;
+	public static ArmorTiAr flametiteChestT2;
+	public static ArmorTiAr flametiteLegsT2;
+	public static ArmorTiAr flametiteBootsT2;
+
+	// T3 armor initialization
+	public static ArmorTiAr baramiteHelmT3;
+	public static ArmorTiAr baramiteChestT3;
+	public static ArmorTiAr baramiteLegsT3;
+	public static ArmorTiAr baramiteBootsT3;
+	public static ArmorTiAr einsteiniumHelmT3;
+	public static ArmorTiAr einsteiniumChestT3;
+	public static ArmorTiAr einsteiniumLegsT3;
+	public static ArmorTiAr einsteiniumBootsT3;
+
+	// T4 armor initialization
+
+	// T5 armor initialization
 
     public static void init()
     {
         // Registering items
-       /* GameRegistry.registerItem(gappasFeather, "gappasFeather");
-        GameRegistry.registerItem(blackLeather, "blackLeather");
-        GameRegistry.registerItem(gabarasTooth, "gabarasTooth");
-        GameRegistry.registerItem(gappaArrow, "gappaArrow");
-        GameRegistry.registerItem(baragonsHorn, "baragonsHorn");
-        */
+        GameRegistry.registerItem(gappasFeather = new ItemGappasFeather(), "gappasFeather");
+        GameRegistry.registerItem(blackLeather = new ItemBlackLeather(), "blackLeather");
+        GameRegistry.registerItem(gabarasTooth = new ItemGabarasTooth(), "gabarasTooth");
+        GameRegistry.registerItem(gappaArrow = new ItemGappaArrow(), "gappaArrow");
+        GameRegistry.registerItem(baragonsHorn = new ItemBaragonsHorn(), "baragonsHorn");
+
 
         // Registering ingots
-        GameRegistry.registerItem(baramiteIngot, "baramiteIngot");
-        /*GameRegistry.registerItem(flametiteIngot, "flametiteIngot");
-        GameRegistry.registerItem(einsteiniumIngot, "einsteiniumIngot");
-        GameRegistry.registerItem(molybdeniteIngot, "molybdeniteIngot");
+        GameRegistry.registerItem(baramiteIngot = new ItemBaramiteIngot(), "baramiteIngot");
+        GameRegistry.registerItem(flametiteIngot = new ItemFlametiteIngot(), "flametiteIngot");
+        GameRegistry.registerItem(einsteiniumIngot = new ItemEisteiniumIngot(), "einsteiniumIngot");
+        GameRegistry.registerItem(molybdeniteIngot = new ItemMolybdeniteIngot(), "molybdeniteIngot");
+
+	    // Registering weapons
+	    GameRegistry.registerItem(baramiteSword = new ItemBaramiteSword(Material.BaramiteMaterial), "baramiteSword");
 
         // Register tools
-        GameRegistry.registerItem(baramiteSword, "baramiteSword");
-        GameRegistry.registerItem(baramitePickaxe, "baramitePickaxe");
-        GameRegistry.registerItem(baramiteShovel, "baramiteShovel");
-        GameRegistry.registerItem(baramiteAxe, "baramiteAxe");
-        GameRegistry.registerItem(baramiteHoe, "baramiteHoe");
+        GameRegistry.registerItem(baramitePickaxe = new ItemBaramitePickaxe(Material.BaramiteMaterial), "baramitePickaxe");
+        GameRegistry.registerItem(baramiteShovel = new ItemBaramiteShovel(Material.BaramiteMaterial), "baramiteShovel");
+        GameRegistry.registerItem(baramiteAxe = new ItemBaramiteAxe(Material.BaramiteMaterial), "baramiteAxe");
+        GameRegistry.registerItem(baramiteHoe = new ItemBaramiteHoe(Material.BaramiteMaterial), "baramiteHoe");
 
         // Registering cores to the armor
-        GameRegistry.registerItem(baramiteCore, "baramiteCore");
-        GameRegistry.registerItem(flametiteCore, "flametiteCore");
+        GameRegistry.registerItem(baramiteCore = new ItemBaramiteCore(), "baramiteCore");
+        GameRegistry.registerItem(flametiteCore = new ItemFlametiteCore(), "flametiteCore");
+
+	    //Registering armor frames
+	    GameRegistry.registerItem(baramiteHelmFrame = new ItemBaramiteHelmFrame(), "baramiteHelmFrame");
+	    GameRegistry.registerItem(baramiteChestFrame = new ItemBaramiteChestFrame(), "baramiteChestFrame");
+	    GameRegistry.registerItem(baramiteLegsFrame = new ItemBaramiteLegsFrame(), "baramiteLegsFrame");
+	    GameRegistry.registerItem(baramiteBootsFrame = new ItemBaramiteBootsFrame(), "baramiteBootsFrame");
 
         // Registering armor
-        GameRegistry.registerItem(baramiteHelmT1, "baramiteHelmT1");
-        GameRegistry.registerItem(baramiteChestT1, "baramiteChestT1");
-        GameRegistry.registerItem(baramiteLegsT1, "baramiteLegsT1");
-        GameRegistry.registerItem(baramiteBootsT1, "baramiteBootsT1");
-        GameRegistry.registerItem(baramiteChestT2, "baramiteChestT2");
+        GameRegistry.registerItem(baramiteHelmT1 = new ItemBaramiteHelmT1(Material.BaramiteArmorMaterialT1, baraHelmetT1ID, 0), "baramiteHelmT1");
+        GameRegistry.registerItem(baramiteChestT1 = new ItemBaramiteChestT1(Material.BaramiteArmorMaterialT1, baraChestplateT1ID, 1), "baramiteChestT1");
+        GameRegistry.registerItem(baramiteLegsT1 = new ItemBaramiteLegsT1(Material.BaramiteArmorMaterialT1, baraLeggingsT1ID, 2), "baramiteLegsT1");
+        GameRegistry.registerItem(baramiteBootsT1 = new ItemBaramiteBootsT1(Material.BaramiteArmorMaterialT1, baraBootsT1ID, 3), "baramiteBootsT1");
+	    GameRegistry.registerItem(baramiteHelmT2 = new ItemBaramiteHelmT2(Material.BaramiteArmorMaterialT2, baraHelmetT2ID, 0), "baramiteHelmT2");
+        GameRegistry.registerItem(baramiteChestT2 = new ItemBaramiteChestT2(Material.BaramiteArmorMaterialT2, baraChestplateT2ID, 1), "baramiteChestT2");
+	    GameRegistry.registerItem(baramiteLegsT2 = new ItemBaramiteLegsT2(Material.BaramiteArmorMaterialT2, baraLeggingsT2ID, 2), "baramiteLegsT2");
+	    GameRegistry.registerItem(baramiteBootsT2 = new ItemBaramiteBootsT2(Material.BaramiteArmorMaterialT2, baraBootsT2ID, 3), "baramiteBootsT2");
 
         // Techarmor related items
-        if(ConfigurationHandler.enableTechArmor)
-        {
-            GameRegistry.registerItem(techCore, "techCore");
-            GameRegistry.registerItem(einsteiniumHelmT1, "einsteiniumHelmT1");
-            GameRegistry.registerItem(einsteiniumChestT1, "einsteiniumChestT1");
-            GameRegistry.registerItem(einsteiniumLegsT1, "einsteiniumLegsT1");
-            GameRegistry.registerItem(einsteiniumBootsT1, "einsteiniumBootsT1");
-        }
+        GameRegistry.registerItem(techCore = new ItemTechCore(), "techCore");
+        GameRegistry.registerItem(einsteiniumHelmT1 = new ItemEinsteiniumHelmT1(Material.EinsteiniumArmorMaterialT1, einHelmetT1ID, 0), "einsteiniumHelmT1");
+        GameRegistry.registerItem(einsteiniumChestT1 = new ItemEinsteiniumChestT1(Material.EinsteiniumArmorMaterialT1, einChestplateT1ID, 1), "einsteiniumChestT1");
+        GameRegistry.registerItem(einsteiniumLegsT1 = new ItemEinsteiniumLegsT1(Material.EinsteiniumArmorMaterialT1, einLeggingsT1ID, 2), "einsteiniumLegsT1");
+        GameRegistry.registerItem(einsteiniumBootsT1 = new ItemEinsteiniumBootsT1(Material.EinsteiniumArmorMaterialT1, einBootsT1ID, 3), "einsteiniumBootsT1");
 
         // Diving armor related items
-        if(ConfigurationHandler.enableDivingArmor)
-        {
-            GameRegistry.registerItem(divingCore, "divingCore");
-        }*/
+        GameRegistry.registerItem(divingCore = new ItemDivingCore(), "divingCore");
     }
+
+
 
 }
