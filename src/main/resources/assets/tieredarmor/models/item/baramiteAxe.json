@@ -1,0 +1,6 @@
+{
+  "parent":"tieredarmor:item/TiArTool",
+  "textures": {
+    "layer0": "tieredarmor:items/baramiteAxe"
+  }
+}

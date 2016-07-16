@@ -1,0 +1,13 @@
+{
+  "parent":"tieredarmor:model/coreEnhancingTable",
+  "textures": {
+    "leg": "tieredarmor:blocks/coreEnhancingTableLeg",
+    "corner": "tieredarmor:blocks/molybdeniteBlock",
+    "side": "blocks/gold_block",
+    "centBasBottom": "tieredarmor:blocks/coreEnhancingTableCenterBase",
+    "centBasTop": "tieredarmor:blocks/coreEnhancingTableCenterBase",
+    "centTop": "tieredarmor:blocks/coreEnhancingTableCenter",
+    "centBottom": "tieredarmor:blocks/coreEnhancingTableCenter",
+    "centSide": "tieredarmor:blocks/coreEnhancingTableCenterSide"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent":"tieredarmor:item/TiArItem",
+  "textures": {
+    "layer0": "tieredarmor:items/baramiteLegsT2"
+  }
+}
